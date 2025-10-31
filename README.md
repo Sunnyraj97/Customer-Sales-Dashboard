@@ -1,21 +1,58 @@
-# Customer-Sales-Dashboard
+# Customer Sales Analysis
 
-Top Performing Retailers:
+## Objective
+This project provides a concise view of revenue and quantity analytics to understand **who buys** (by customer) and **what sells** (by item). It supports sales, marketing, and inventory teams in identifying top customers, best-selling items, and emerging trends, enabling data-driven decision-making.
 
-PetSmart stands out as the top-performing retailer with total revenue of $341,991.43 and 7,432 items sold, indicating a strong market presence and customer demand.
+## Data and Scope
+- **Data sources**: Sales/orders, customers, items, and a time dimension.
+- **Core tables**:
+  - **Customers**: Customer Name, Region, Segment
+  - **Orders**: Order ID, Date, Customer ID, Item ID, Quantity, Revenue
+  - **Items**: Item ID, Description, Category
+  - **Time**: Date, Month, Quarter, Year
 
-Top Selling Items:
+## Metrics and Definitions
+- **Revenue by customers**: Total revenue per customer over the analyzed period
+- **Quantity by customers**: Total units sold per customer
+- **Quantity by items**: Total quantity sold per item
+- **Derived insights**: Top customers, best-selling items, growth indicators, market share per customer/item
 
-Item 4 is the highest-selling item with 11,223 units sold and total revenue of $392,798.50, followed by Item 1 with 3,932 units sold and total revenue of $204,473.61.
+## Data Highlights & Outcomes
+- **Top Performing Retailers**: PetSmart leads with $341,991.43 revenue and 7,432 items sold.
+- **Top Selling Items**:
+  - Item 4: 11,223 units, $392,798.50 revenue.
+  - Item 1: 3,932 units, $204,473.61 revenue.
+- **Retailer & Item Performance**:
+  - PetSmart and Home Depot show balanced performance.
+  - Kohl’s heavily relies on Item 3 for revenue.
+  - Target and Home Depot present balanced revenue distribution.
+  - Lowes has relatively lower total revenue.
+- **Strategy Insights**:
+  - Diversify product range.
+  - Focus on high-revenue items.
+  - Understand customer and item contributions to grow revenue.
 
-Retailer and Item Performance:
+## Methodology
+- Data cleaning, merging, and validation.
+- Descriptive analysis to identify top performers.
+- Visualizations to depict sales trends and distributions.
+- Insights derived through aggregation and comparison.
 
-PetSmart and Home Depot demonstrate balanced performance across items, indicating a diverse product range and customer base.
+## Results & Visualizations
+- Key charts highlighting top customers, best-selling items, and revenue trends.
+- Tables summarizing revenue and quantity metrics.
+- Visual insights support strategic recommendations.
 
-Kohl's relies heavily on Item 3 for revenue, while Target and Home Depot show more balanced revenue distribution across items.
+## Conclusions
+- Focus on diversifying product offerings based on high performers.
+- Target top customers for retention and upselling.
+- Monitor trends for emerging products and regions.
 
-Lowes has a lower total revenue compared to other major retailers, suggesting potential areas for improvement or focus.
+## Future Work
+- Incorporate seasonality and time-series trends.
+- Add predictive models for sales forecasting.
+- Explore customer segmentation for targeted marketing.
 
-Overall Strategy:
+## Acknowledgments
+Data sourced from internal sales and customer databases.
 
-Retailers can benefit from diversifying their product range and focusing on items that drive the most revenue.
